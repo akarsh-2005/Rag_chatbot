@@ -1,0 +1,26 @@
+
+# API keys and environment secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Local secrets
+secrets.toml
+
+# IDE files
+.vscode/
+
+# Generated logs
+*.log
+
+# Local vector database (optional: keep out of GitHub)
+vectorstore/db_faiss/
