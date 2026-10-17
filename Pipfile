@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 faiss-cpu = "*"
 langchain-text-splitters = "*"
+langchain-groq = "*"
 pypdf = "*"
 langchain = "*"
 langchain-community = "*"
